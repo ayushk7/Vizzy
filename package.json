@@ -1,0 +1,28 @@
+{
+  "name": "vizzy",
+  "version": "1.0.0",
+  "description": "library for making node editor using web technologies",
+  "main": "lib/index.js",
+  "types": "lib",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p .",
+    "watch": "tsc -w -p ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayushk7/Vizzy.git"
+  },
+  "author": "Ayush Kashyap",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ayushk7/Vizzy/issues"
+  },
+  "homepage": "https://github.com/ayushk7/Vizzy#readme",
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "jsdoc": "^3.6.7",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {}
+}
